@@ -24,3 +24,21 @@ del fruits2
 print(len(fruits))
 
 # A Set is a collection which is unordered and unindexed. No duplicate members.
+
+# Create a set 
+fruits_set = {'Apples', 'Oranges', 'Mango'}
+print('Apples' in fruits_set)
+
+# Add to set 
+fruits_set.add('Grapes')
+
+# Remove from set
+
+fruits_set.remove('Grapes')
+
+# Clear set (set remains but empty)
+fruits_set.clear()
+
+del fruits_set
+
+print(fruits_set)
