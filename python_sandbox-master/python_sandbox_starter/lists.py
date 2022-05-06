@@ -24,7 +24,7 @@ fruits.remove('Grapes')
 # insert into position (position first and value then)
 fruits.insert(2, 'Strawberry')
 
-#  remote from list with pop
+#  remove from list with pop
 fruits.pop(2)
 
 # reverse list
